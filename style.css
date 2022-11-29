@@ -1,0 +1,153 @@
+
+/*Fonts
+font-family: 'Mukta', sans-serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Andika', sans-serif;
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+
+    background-color: black;
+}
+
+.GK {
+    border-radius: 10px;
+    position: relative;
+    left: 4rem;
+    width: 30%;
+    height: auto;
+    -moz-animation: fadein 1s;
+}
+
+.Title {
+    position: absolute;
+    left: 13em;
+    top: 4rem;
+    color: white;
+    font-family: 'Andika', sans-serif;
+    font-size: 3.2vw;
+    -moz-animation: fadein 1s;
+}
+
+.GK-p {
+    position: absolute;
+    left: 28em;
+    top: 13rem;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.62vw;
+    -moz-animation: fadein 1s;
+}
+
+.square {
+  height: 80em;
+  width: 0.2em;
+  background-color: white;
+  position: absolute;
+  right: 12.5rem;
+  top: 0em;
+  -moz-animation: fadein 1s;
+  }
+
+/*
+Book Images
+*/
+
+.Restart {
+    border-radius: 10px;
+    position: absolute;
+    right: 1.5rem;
+    width: 10%;
+    height: auto;
+    -moz-animation: fadein 1s;
+}
+
+.Restart2 {
+    border-radius: 10px;
+    position: absolute;
+    left: 1.5rem;
+    top: 50em;
+    width: 20%;
+    height: auto;
+    -moz-animation: fadein 1s;
+}
+
+.RestartTitle {
+    position: absolute;
+    left: 7em;
+    top: 48rem;
+    color: white;
+    font-family: 'Andika', sans-serif;
+    font-size: 3.2vw;
+}
+
+.RestartSummary {
+        position: absolute;
+        left: 16em;
+        top: 55rem;
+        color: white;
+        font-family: 'Mukta', sans-serif;
+        font-size: 1.42vw;
+        -moz-animation: fadein 1s;
+}
+
+.UNGIFTED {
+    border-radius: 10px;
+    position: absolute;
+    right: 1.5rem;
+    top:  16em;
+    width: 10%;
+    height: auto;
+    -moz-animation: fadein 1s;
+}
+.TheFort {
+    border-radius: 10px;
+    position: absolute;
+    right: 1.5rem;
+    top:  32em;
+    width: 10%;
+    height: auto;
+    -moz-animation: fadein 1s;
+}
+.Unlinked {
+    border-radius: 10px;
+    position: absolute;
+    right: 1.5rem;
+    top:  48em;
+    width: 10%;
+    height: auto;
+    -moz-animation: fadein 1s;
+}
+.Unplugged {
+    border-radius: 10px;
+    position: absolute;
+    right: 1.5rem;
+    top:  54em;
+    width: 10%;
+    height: auto;
+    -moz-animation: fadein 1s;
+}
+
+.DoOver {
+    border-radius: 10px;
+    position: absolute;
+    right: 1.5rem;
+    top:  64em;
+    width: 10%;
+    height: auto;
+    -moz-animation: fadein 1s;
+}
+
+/*--------------------------------------------*/
+
+@-moz-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
