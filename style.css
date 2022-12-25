@@ -61,6 +61,8 @@ Book Images
     border-radius: 10px;
     position: absolute;
     right: 1.5rem;
+    top: 0.5em;
+    width: 10rem;
     width: 10%;
     height: auto;
     -moz-animation: fadein 1s;
@@ -93,6 +95,72 @@ Book Images
         font-family: 'Mukta', sans-serif;
         font-size: 1.42vw;
         -moz-animation: fadein 1s;
+}
+
+
+.square2 {
+  height: 28em;
+  width: 0.2em;
+  background-color: white;
+  position: absolute;
+  left: 46em;
+  top: 51em;
+  -moz-animation: fadein 1s;
+}
+  /** -- Review -- **/
+
+.SM {
+    position: absolute;
+    left: 28.5em;
+    top: 27.5 em;
+    color: white;
+    font-family: 'Andika', sans-serif;
+    font-size: 1.82vw;
+}
+
+.Star1 {
+    position: absolute;
+    left: 50em;
+    top: 56em;
+    width: 2.5%;
+    height: 5%;
+}
+
+.Star2 {
+    position: absolute;
+    left: 53em;
+    top: 56em;
+    width: 2.5%;
+    height: 5%;
+}
+
+.Star3 {
+    position: absolute;
+    left: 56em;
+    top: 56em;
+    width: 2.5%;
+    height: 5%;
+}
+
+.Star4 {
+    position: absolute;
+    left: 59em;
+    top: 56em;
+    width: 2.5%;
+    height: 5%;
+}
+
+.Star5 {
+    position: absolute;
+    left: 62em;
+    top: 56em;
+    width: 2.5%;
+    height: 5%;
+}
+
+.Review2 {
+    position: absolute;
+    top: 56em;
 }
 
 .UNGIFTED {
